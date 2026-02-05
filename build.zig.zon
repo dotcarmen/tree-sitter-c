@@ -1,0 +1,21 @@
+.{
+    .name = .tree_sitter_c,
+    .version = "0.0.1",
+    .dependencies = .{
+        .tree_sitter = .{
+            .url = "git+https://github.com/dotcarmen/zig-tree-sitter?ref=dotcarmen/zig-0.16#99bc550cb9ddc8ac7f6107fc2092f5242f72ec80",
+            .hash = "tree_sitter-0.25.0-8heIf4NmAQCEiAhKJA9bSwk4qAkbFGIeCyNXr87ALBps",
+        },
+    },
+    .minimum_zig_version = "0.16.0-dev.2296+fd3657bf8",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "bindings/zig",
+        "src",
+        "queries",
+        "LICENSE",
+        "README.md",
+    },
+    .fingerprint = 0x14eb68f9b91a4095,
+}
